@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 sleep 20
 sudo apt-get update
+sleep 10
 sudo apt-get install -y apache2
 if ! [ -L /var/www/html ]; then
   rm -rf /var/www/html
